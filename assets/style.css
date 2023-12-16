@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 20px;
+}
+
+/* Estilos para la sección de nueva tarea */
+input.form-control {
+    width: 70%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button.btn {
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    background-color: #28a745;
+    color: white;
+}
+
+button.btn:hover {
+    background-color: #218838;
+}
+
+/* Estilos para la lista de resumen y la tabla */
+ul.resumen {
+    list-style: none;
+    padding: 0;
+}
+
+ul.resumen li {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f8f9fa;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border: 1px black;
+}
+.row2{
+    width: 50%;
+    border: solid 1px black;
+}
+.row3{
+    width: 50%;
+    border: solid 1px black;
+}
+.icon {
+    margin: 40px;
+}

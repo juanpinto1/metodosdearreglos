@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./assets/style.css"/>
+</head>
+<body>
+    <main>
+        <h1>Todo List</h1>
+        <hr />
+
+        <div>
+            Nueva Tarea
+            <div class="d-flex">
+                <input class="form-control" />
+                <button class="ms-2 btn btn-success">Agregar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row2">
+                <ul class="col-6 resumen">
+                    <li>Total: <span>0</span></li>
+                    <li>Realizadas: <span>0</span></li>
+                    <li>Pendientes: <span>0</span></li>
+                </ul>
+            </div>
+            <div class="row3">
+                <table class="col-6">
+                    <thead>
+                        <th>ID</th>
+                        <th>Tarea</th>
+                        <th>Estado</th>
+                    </thead>
+                    <tbody id="taskTableBody" class="selection"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="./assets/index.js"></script>
+</body>
+</html>
